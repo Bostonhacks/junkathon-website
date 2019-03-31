@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.italic-subtext {
+  font-style: italic;
+  font-size: 32px;
+}
+
+.keep-on-one-line {
+ white-space: nowrap;
+}
+.keep-on-one-line * {
+ display: inline;
+}
+
+
+.main-content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
