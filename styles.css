@@ -7,3 +7,10 @@ h1 {
   /*make italic*/
   font-size: 32px;
 }
+
+.keep-on-one-line {
+ white-space: nowrap;
+}
+.keep-on-one-line * {
+ display: inline;
+}
