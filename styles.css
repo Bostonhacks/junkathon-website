@@ -60,5 +60,9 @@ ul {
 
 .footer-content {
   margin-top: 75px;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
+}
+
+.footer-link-box {
+  margin-bottom: 15px;
 }
