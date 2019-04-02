@@ -4,14 +4,25 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.landing-content {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
 h1 {
   font-weight: 700;
   font-size: 48px;
 }
 
+h2 {
+  font-size: 30px;
+  line-height: 1.6em;
+}
+
 .italic-subtext {
   font-style: italic;
-  font-size: 32px;
+  margin-top: 45px;
+  margin-bottom: 75px;
 }
 
 .keep-on-one-line {
@@ -21,8 +32,18 @@ h1 {
  display: inline;
 }
 
+.or-dont {
+  color: #555;
+}
 
 .main-content {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin: 50px 0;
+}
+
+.description {
+  margin: 20px 0;
+}
+
+.footer-content {
+  margin: 50px 0;
 }
