@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700');
 
 * {
   font-family: 'Roboto', sans-serif;
 }
 
+
+
 .landing-content {
   margin-top: 150px;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
 }
 
 h1 {
@@ -36,14 +38,27 @@ h2 {
   color: #555;
 }
 
+
+
 .main-content {
-  margin: 50px 0;
+  margin: 75px 0;
 }
 
 .description {
-  margin: 20px 0;
+  margin-bottom: 50px;
 }
 
+h3 {
+  font-weight: 500;
+}
+
+ul {
+  margin-bottom: 30px;
+}
+
+
+
 .footer-content {
-  margin: 50px 0;
+  margin-top: 75px;
+  margin-bottom: 50px;
 }
