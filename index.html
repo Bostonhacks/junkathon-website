@@ -7,77 +7,95 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   </head>
 
   <body>
-    <!-- Landing page -->
-    <div class="container">
+    <!-- Landing content -->
+    <div class="container-fluid landing-content">
       <div class="row align-items-center">
         <div class="col-2"></div>
-        <h1 class="col-3">BostonHacks</h1>
-        <img class="col-2" src="https://static.bostonhacks.io/img/logo-no-text.png" style="height: 200px"/>
-        <h1 class="col-3">Junkathon</h1>
+        <h1 class="col-3" align="center" style="margin-bottom: 0">BostonHacks</h1>
+        <img class="col-2" src="https://static.bostonhacks.io/img/logo-no-text.png" style="height: 200px" align="center"/>
+        <h1 class="col-3" align="center" style="margin-bottom: 0">Junk a thon</h1>
         <div class="col-2"></div>
       </div>
       <div align="center">
-        <h2 class="italic-subtext">Putting the hack back in hackathon</h2>
-        <h2 class="italic-subtext">April 13th • Come to the BUild Lab & make stuff</h2>
+        <div class="italic-subtext">
+          <h2>Putting the hack back in hackathon</h2>
+          <h2>April 13th • Come to the BUild Lab & code stuff</h2>
+        </div>
         <div class="keep-on-one-line">
           <button class="register-button">Register Now!</button>
-          <p>Or don't, and keep scrolling ↓</p>
+          <p class="or-dont">Or don't, and keep scrolling ↓</p>
         </div>
       </div>
     </div>
+
+    <hr>
 
     <!-- Main content -->
-    <div class="container main-content">
-      <p align="center">On 4/13 we will be programming some very bad ideas in the Build Lab. Please join us. No experience is necessary and everyone is welcome.</p>
-      <h2>The rules:</h2>
-      <ul>
-        <li>No taking yourself seriously</li>
-        <li>10 hours to build a terrible project</li>
-        <li>Do not impress any sponsors (there won't be any)</li>
-        <li>There will probably be swag</li>
-        <li>There will definitely be food</li>
-        <li>Everyone helps each other build something useless</li>
-      </ul>
-      
-      <h2>Good ideas for a project include:</h2>
-      <ul>
-        <li>A reverse ad blocker that blocks everything except ads</li>
-        <li>A twitter bot that publicly tweets every website you visit</li>
-        <li>If you have a good idea for us to put on this site type it here and we might add it: <input /></li>
-      </ul>
-
-      <h2>If you've made it this far you should definitely come</h2>
+    <div class="container-fluid main-content">
+      <p class="description" align="center">On 4/13 we will be programming some very bad ideas in the Build Lab. Please join us. No experience is necessary and everyone is welcome.</p>
       <div class="row">
-        <div class="col-2"></div>
-        <div class="col-4">
-          <button>Register now</button>
+        <div class="col-1"></div>
+        <div class="col-10">
+          <h3>The rules:</h3>
+          <ul>
+            <li>No taking yourself seriously</li>
+            <li>10 hours to build a terrible project</li>
+            <li>Do not impress any sponsors (there won't be any)</li>
+            <li>There will probably be swag</li>
+            <li>There will definitely be food</li>
+            <li>Everyone helps each other build something useless</li>
+          </ul>
+          
+          <h3>Good ideas for a project include:</h3>
+          <ul>
+            <li>A reverse ad blocker that blocks everything except ads</li>
+            <li>A twitter bot that publicly tweets out every website you visit</li>
+            <li>If you have a good idea for us to put on this site type it here and we might add it: <input /></li>
+          </ul>
+
+          <h3>If you've read this far you should totally come :)</h3>
+          <br>
+          <div class="row align-items-center">
+            <div class="col-1"></div>
+            <div class="col-2">
+              <button>Register now</button>
+            </div>
+            <div class="col-8">
+              <div class="row"><b>Location</b>: BUild Lab (730 Comm Ave)</div>
+              <div class="row"><b>Date</b>: 4/13/19, 10am-10pm</div>
+              <div class="row"><a href="TODO">RSVP on Facebook, if you're into that</a></div>
+            </div>
+            <div class="col-1"></div>
+          </div>
         </div>
-        <div class="col-4">
-          <div class="row"><b>Location:</b> BUild Lab (730 Comm Ave)</div>
-          <div class="row"><b>Date:</b> 4/13/19</div>
-          <div class="row"><a href="TODO">RSVP on Facebook, if you're into that</a></div>
-        </div>
-        <div class="col-2"></div>
+        <div class="col-1"></div>
       </div>
     </div>
 
-    <!-- Footer -->
-    <div class="container">
-      <div class="row">
-        <div class="col-3">
-          <a href="TODO">Facebook</a>
+    <hr>
+
+    <!-- Footer content -->
+    <div class="container-fluid footer-content">
+      <div class="row footer-link-box">
+        <div class="col-1"></div>
+        <div class="col-1">
+          <a href="https://www.facebook.com/bostonhacks" target="__blank">Facebook</a>
         </div>
-        <div class="col-3">
-          <a href="TODO">Twitter</a>
+        <div class="col-2"></div>
+        <div class="col-1">
+          <a href="https://twitter.com/boston_hacks" target="__blank">Twitter</a>
         </div>
-        <div class="col-3">
-          <a href="TODO">Instagram</a>
+        <div class="col-2"></div>
+        <div class="col-1">
+          <a href="https://www.instagram.com/bostonhacks" target="__blank">Instagram</a>
         </div>
-        <div class="col-3">
-          <a href="TODO">Actual BostonHacks</a>
+        <div class="col-2"></div>
+        <div class="col-1">
+          <a href="https://bostonhacks.io" target="__blank">Real BostonHacks</a>
         </div>
       </div>
 
