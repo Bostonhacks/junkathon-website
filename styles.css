@@ -16,6 +16,23 @@ h1 {
   font-size: 48px;
 }
 
+
+/* mobile */
+@media only screen and (min-width: 320px) {
+  .bhacks-logo {
+    width: 60%;
+    display: block;
+    margin: 10% auto;
+  }
+}
+
+/* tablet and up */
+@media only screen and (min-width: 768px) {
+  .bhacks-logo {
+    width: 100%;
+  }
+}
+
 h2 {
   font-size: 30px;
   line-height: 1.6em;
